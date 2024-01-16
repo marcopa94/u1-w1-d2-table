@@ -4,37 +4,186 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epicode-Il blog dei developers</title>
+    <style>
+      .sec2 {
+        background-color: #5c96456b;
+        width: 20%;
+      }
+      .footer {
+        text-align: center;
+      }
+
+      .blocco1 {
+        text-align: center;
+      }
+      table {
+        min-width: 700px;
+        max-width: 900px;
+      }
+
+      th {
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <main></main>
-    <table>
-      <caption>
-        Diffusione del Css
-      </caption>
+    <div class="blocco1">
+      <h1>Epicode Il Blog dei developers</h1>
+      <p>Primi passi operativi per creare un modello di una pagina HTML per un post. Scopri come iniziare facilmente</p>
+
+      <picture>
+        <img src="./assest/img/1.jpeg" />
+      </picture>
+    </div>
+
+    <br />
+    <div>
+      <a href="" Home> Home </a> <br />
+      <a href="" Home> Articoli </a> <br />
+      <a href="" Home> Lavora Con Noi </a> <br />
+    </div>
+    <br />
+    <br />
+    <br />
+    <h2>Come creare un template per i post di Mario Rossi - pubblicato il 25-10-2020</h2>
+    <section class="blocco 2">
+      <p>
+        La Prima cosa da fare è suddividere in blocchi logici la pagina ,identificndo le partic comuni da applicare a
+        tutte le pagine
+      </p>
+      <b> Le varie aeree saranno quindi suddivise in:</b>
+      <ul>
+        <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+        <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+        <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+      </ul>
+    </section>
+    <section>
+      <p>FORMATTAZIONE DEL CODICE</p>
+      <br />
+      <br />
+      Il testo dell' articolodovrà essere formattato per identificare tutte le parti da selezionare con i css.Percio i
+      passi saranno:
+      <ol>
+        <li>progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+        <li>Scrivere html dai tag esterni a quellii interni e dall'aalto verso il basso</li>
+        <li>applicare stili CSS</li>
+      </ol>
+      <p>l applicazione di stilii css è cresciuta negli anni fino a raggiungere la diffusione pressochè totale</p>
+    </section>
+
+    <br />
+    <br />
+
+    <main class="blocco3">
       <table>
+        <caption>
+          Diffusione del Css
+        </caption>
 
-        <tr> 
+        <tr>
           <th>Anno</th>
-            <th>% di utilizzo</th>
-            <th>Supporto Browser</th>
-            
-          
-        <tr>
-            
-            <td>Stefano</td>
-            <td>Miceli</td>
-            <td>30</td>
-            
+          <th>% di utilizzo</th>
+          <th>Supporto Browser</th>
         </tr>
-        <tr>
-            <td>Mario</td>
-            <td>Miceli</td>
-            <td>68</td>
-            
-        </tr>
-       
-    </table>
 
-    <footer></footer>
+        <tr>
+          <td>2000</td>
+          <td>20%</td>
+          <td>17%</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>35%</td>
+          <td>22%</td>
+        </tr>
+        <tr>
+          <td>2004</td>
+          <td>45%</td>
+          <td>42%</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>80%</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>100%</td>
+          <td>76%</td>
+        </tr>
+      </table>
+
+      <p>
+        Un test di valutazione potrà essere fatto tramite il tool online <a href="#"> LINK ESTERNO</a> - dedicatoo allo
+        scopo. Una volta ottimizzato il tutto, avremmo raggiunto il nostro obbiettivo di essere stati dei veri
+        developerscome loro:
+      </p>
+      <iframe
+        width="100%"
+        height="600"
+        src="https://www.youtube.com/embed/aBSZVeBRvDY?si=HLKnAW2GuORuCul1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      Vuoi rimanere aggiornato su altre novità del Blog? iscriviti alla ns newsletter
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <form>
+        <label for="email"> email </label>
+        <input type="email" id="email" placeholder="Inserisci l'email" required />
+
+        <br />
+        <br />
+        <br />
+        <input type="submit" value="invia " />
+
+        <br />
+        <br />
+        <br />
+        <br />
+      </form>
+      <section class="sec2">
+        <p>articoli correlati</p>
+        <p>validare il codice HTML</p>
+        <p>Data 18-9-2020</p>
+        <br />
+        <br />
+        <br />
+
+        <p>correggere la sintassi</p>
+        <p>categoria develop</p>
+        <p>Data 16-9-2020</p>
+        <br />
+        <br />
+        <br />
+
+        <p>meno kb nella pagina</p>
+        <p>categoria: ottimizzazione</p>
+        <p>Data 30-9-2020</p>
+      </section>
+      <br />
+      <br />
+      <br />
+
+      <p>blog epicode &copy 2023</p>
+    </main>
+    <br />
+    <br />
+    <footer class="footer">
+      Blog epicode testata online di mario rossi, registrata con prot. 213/2018 - via luigi Einaudi 2 Milano p.i.
+      0000303020 info email <a href="#">epicode@gmail.com</a>
+    </footer>
   </body>
 </html>
